@@ -30,13 +30,13 @@ export default function Navbar() {
 					<div className="absolute top-10 right-0 bg-white w-[140px]">
 						<ul className="flex flex-col items-center justify-center w-full h-full [&>a]:w-full [&>a]:h-fit [&>a]:text-center [&>a]:py-2">
 							<a
-								href="/user/login"
+								href="/account/login"
 								className="hover:bg-slate-600 hover:text-white"
 							>
 								<li>Iniciar Sesión</li>
 							</a>
 							<a
-								href="/user/register"
+								href="/account/register"
 								className="hover:bg-slate-600 hover:text-white"
 							>
 								<li>Registrarse</li>

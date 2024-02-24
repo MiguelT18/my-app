@@ -2,16 +2,14 @@
 import { useRouter } from "next/navigation";
 import React, { useEffect } from "react";
 
-export default function AuthComponent({
-	children,
-}: { children: React.ReactNode }) {
+export default function AuthComponent({ children }: { children: React.ReactNode }) {
 	const router = useRouter();
 
 	useEffect(() => {
 		const isAuthenticated = true;
 
 		if (!isAuthenticated) {
-			router.push("/user/login");
+			router.push("/account/login");
 		}
 	}, [router]);
 
